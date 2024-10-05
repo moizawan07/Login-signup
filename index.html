@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-for-allpage" id="signuppage">
+
+        <div class="logo">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="">
+        </div>
+        <div class="fullform-con">
+            <h2>Create a new account</h2>
+            <p>It's quick and easy.</p>
+            <hr>
+        
+            <div class="sfor">
+            <div class="first-line">
+                <input type="text" id="firstname" placeholder="First name">
+                <input type="text" id="surname" placeholder="surname">
+            </div>
+            <p class="pa">Date of birth ?</p>
+            <div class="sec-line">
+                <select id="date">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                </select>
+                <select id="Month">
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">Aug</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+                <select id="Year">
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                    <option value="">2007</option>
+                    <option value="">2008</option>
+                    <option value="">2009</option>
+                    <option value="">2010</option>
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                    <option value="">2014</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    <option value="">2024</option>
+                </select>
+            </div>
+            <p class="pa">Gender ?</p>
+            <div class="third-line">
+                <div class="box" id="Female">
+                   <span>Female</span>
+                   <span class="sp"><input type="radio"></span>
+                </div>
+
+                <div class="box" id="Male">
+                    <span>Male</span>
+                    <span class="sp"><input type="radio"></span>
+                 </div>
+
+                 <div class="box" id="Custom">
+                    <span>Custom</span>
+                    <span class="sp"><input type="radio"></span>
+                 </div>
+            </div>
+            <div class="fourth-line">
+                <input type="email" placeholder="Mobile number or email adress" id="Email1">
+                <input type="password" placeholder="New password" id="Pass1" required>
+            </div>
+            <div class="fifth-line">
+                <p>People who use our service may have uploaded your contact information to <br> Facebook.  <a href="https://www.facebook.com/help/637205020878504" target="_blank">Learn more.</a></p>
+                <p>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update" target="_blank">Terms</a>, <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0" target="_blank">Privacy Policy</a> and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0" target="_blank">Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p>
+            </div>
+            <div class="btn">
+                <button onclick="signUp()">Sign Up</button>
+            </div>
+      
+            <div class="last">
+                <p><a href="#forma">Already have an account?</a></p>
+            </div>
+        </div>
+       
+        <div id="printdata">
+
+        </div>
+       </div>
+
+    </div>
+    
+    <div class="con" id="cona"> 
+      <div class="mini-con">  
+        <div class="logo2">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="">
+            <p>Facebook helps you connect and share <br> with the people in your life.</p>
+        </div>
+
+        <div class="formm" id="forma">
+            <div class="input-box">
+                <input type="email" placeholder="Email adress or phone number" id="Email2">
+                <input type="password" placeholder="Password" id="Pass2">
+            </div>
+            <div class="sb">
+                <button onclick="logIn()">Log in</button>
+            </div>
+            <div class="ll">
+                <span><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" target="_blank">Forgooten account?</a></span>
+                <hr>
+            </div>
+            <div class="lbtn">
+                <button><a href="#signuppage">Create a new account</a></button>
+            </div>
+    
+        </div>
+        </div>
+        <p class="ppp"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form" target="_blank">Create a page</a>For a celebrity.brand or business</p>
+    </div> 
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

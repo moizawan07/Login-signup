@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+::placeholder{
+    color: #8D949E;
+}
+input{
+    border: 1px solid #CCD0D5;
+    height: 42px;
+}
+hr{
+    margin-top: 15px;
+    border: 0.65px solid #DADDE1;
+}
+
+.con{
+    width: 100%;
+    background-color: #F2F4F7;
+   min-height: 510px;
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.logo2 img{
+    width: 250px;
+}
+
+.formm{
+    width: 28.2%;
+    border-radius: 10px;
+    padding-bottom: 35px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #FFF;
+    padding-top: 30px;  
+    box-shadow: 0px 0px 3px rgb(173, 170, 170);
+}
+
+.formm p{
+    text-align: center;
+    font-size: 19px;
+    line-height: 22px;
+    color: rgb(28, 30, 33);
+}
+
+.input-box{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 25px;
+}
+.input-box input{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 18px;
+    padding-inline: 10px;
+}
+
+.sb{
+    padding-top: 11px;
+    padding-inline: 25px;
+}
+.sb button{
+    height: 45px;
+    border: 1px solid #166FE5;
+    width: 100%;
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.ll{
+    padding-inline: 25px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ll span a{
+    color: #166FE5;
+    font-size: 14px;
+}
